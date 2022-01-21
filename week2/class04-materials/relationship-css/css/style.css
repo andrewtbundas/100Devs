@@ -1,0 +1,16 @@
+h1 {
+  color:purple;
+}
+
+section > h2 {
+  font-size: 50px;
+  color:yellow;
+}
+
+article h2 {
+  color:red;
+}
+
+section article h2 {
+  text-decoration:underline;
+}
