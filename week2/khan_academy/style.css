@@ -1,7 +1,5 @@
-
-a{
-    text-decoration: none;
-    margin: 10px 20px;
+html{
+  font-family: 'Lato', sans-serif;
 }
 
 .container{
@@ -10,14 +8,36 @@ a{
     justify-content: center;
     align-items: center;
 }
-
+/* 
+===============================
+Header
+===============================
+*/
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px 20px 50px 10px;
+    margin: 10px 20px 0px 10px;
     align-items: center;
     width:75%;
+}
+
+header a{
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+header input{
+  background-color: #D6D8DA;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.header-border{
+  width: 100%;
+  border-bottom: 1px solid #D6D8DA;
+  margin-bottom: 50px;
 }
 
 header li{
@@ -33,6 +53,7 @@ header img{
     height: 50px;
     line-height: 50px;
 }
+
 h2{
     margin: 0px;
     display: inline;
@@ -44,33 +65,85 @@ header ul{
     padding: 0px;
 }
 
+/* 
+===============================
+Hero
+===============================
+*/
+
 .hero-container{
     display:flex;
     align-items: center;
-    justify-content: flex-start;
-    width: 50%;
+    width: 66%;
+}
 
+.hero-container img{
+  width:50%;
+}
+
+.hero-text{
+  width:50%;
+}
+
+.hero-text p,a {
+  font-size: 18px;
+}
+
+.hero-text h1{
+  font-size: 53px;
 }
 
 .hero-buttons{
-    display:flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items:flex-start;
-    margin: 0px;
+  margin-top: 50px;
 }
-
-section img{
-    float: left;
-}
-
 
 section a{
     text-decoration: none;
     display: inline-block;
     background-color:  blue;
-    padding: 5px 10px;
+    padding: 10px 15px;
     color: white;
     border: 0px solid white;
     border-radius: 5px;
+    margin-right: 3px;
 }
+
+/* 
+===============================
+Why Works
+===============================
+*/
+
+.why-bg{
+  background-color:rgba(66,66, 66, 0.2);
+  width:100%;
+  text-align: center;
+}
+.why-container{
+  width:66%;
+  text-align: center;
+  margin: 100px auto;
+
+}
+
+.why-container section{
+  display:flex;
+}
+.why-container h2{
+  font-size: 52px;
+}
+
+.why-container div{
+  width:30%;
+  margin: 30px;
+}
+
+.why-container section{
+  margin-top: 100px;
+}
+
+.why-container h3{
+  margin: 20px 0px;
+
+}
+
