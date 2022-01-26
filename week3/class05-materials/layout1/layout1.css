@@ -1,0 +1,31 @@
+header, footer{
+  box-sizing: border-box;
+  height: 100px;
+  width: 100%;
+  border: 3px solid gray;
+  clear: both;
+}
+
+.top, .bottom {
+  box-sizing: border-box;
+  height: 200px;
+  width: 100%;
+}
+
+.top div {
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  width: 33.3333%;
+  border: 3px solid gray;
+}
+
+
+
+.bottom div {
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  width: 50%;
+  border: 3px solid gray;
+}
