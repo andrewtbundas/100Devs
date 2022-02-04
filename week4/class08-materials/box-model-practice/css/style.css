@@ -1,7 +1,31 @@
 /* Please give the h1 some padding on three sides, margin on just one side, and a light purple background with light blue lettering */
-
+h1 {
+    padding: 10px 10px 10px 0px;
+    margin-top: 10px;
+    background-color: lavender;
+    color: skyblue;
+}
 /* Please give the h2 significant padding on the top and bottom, a dark green border on the top and bottom, and an orange background */
+
+h2 {
+    padding: 50px 0px;
+    border-top: forestgreen solid 1px; 
+    border-bottom: forestgreen solid 1px;
+    background-color: burlywood;
+
+}
 
 /* Please give the section a thick blue border, height of 300px, and more the 400px of margin on the top */
 	
+section{
+    height: 300px;
+    border: thick blue solid;
+    margin-top: 500px;
+}
 /* Please make the spans have thin yellow borders and equal padding / margin on all sides */
+
+span {
+    border: thin yellow solid;
+    padding: 10px;
+    margin: 10px;
+}
