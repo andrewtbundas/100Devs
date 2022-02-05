@@ -20,20 +20,28 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+html{
+  font-size: 12px;
+}
 
 body {
+  font-family: 'Oswald', sans-serif;
+}
 
+a {
+  text-decoration: none;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+
 header nav{
   width: 100%;
   height: 100px;
   background-color: #66768A;
-  color: white;
 }
 nav ul, li {
   float: left;
@@ -42,8 +50,7 @@ nav ul, li {
 
 nav ul{
   padding: 0px;
-  height: 100%; 
-  width: 30%;
+  margin: 0px auto;
 }
 
 nav li {
@@ -54,16 +61,150 @@ nav > a{
   float: right;
 }
 nav > img {
+  text-align: center;
   display: block;
-  width: 50px;
+  margin: 0 auto;
+  text-align:center;
+}
+
+
+
+.container section{
+  text-align: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+main {
+  text-align: center;
+  background-color: #66768A;
+}
+
+main section{
+  width: 80%;
+  text-align: center;
   margin: auto;
-  clear: right;
+  background-color: #66768A;
+}
+
+main h1{
+  padding: 20px;
+}
+
+.why {
+  width: 50%;
 }
 
 footer {
+  background-color: #66768A;
+}
 
+h1 {
+  margin: 0px;
+}
+
+.visit, .volunteer{
+  width: 80%;
+}
+.visit article{
+  width: 50%;
+  float: left;
+}
+
+.volunteer{
+  width: 50%;
+}
+
+
+footer div{
+
+}
+
+footer span{
+  display: block;
+}
+
+.footer p {
+
+}
+.footer-left{
+  float: left;
+  margin: 30px;
+}
+.footer-left ul{
+  padding: 0px;
+}
+
+.footer-left a{
+  float: left;
+  margin: 15px 15px 15px 0px;
+
+}
+
+.footer-right{
+  float: right;
+} 
+
+footer img{
+  float: right;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* Typography */
+h1,h2,h3,a,p,span{
+  color: black;
+}
+
+header a, main h1, main p, main span, footer span, footer p, footer a{
+  color: white
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight:500;
+}
+
+h2{
+  font-size: 5rem;
+}
+
+h3{
+  font-size: 4rem;
+}
+
+p{
+  font-size:3.3rem;
+  font-weight: 500;
+}
+
+span{
+  font-size: 2rem;
+}
+
+.video{
+  display: block;
+}
+
+main span{
+  font-weight: 300;
+  margin: 40px;
+}
+
+.visit{
+  background-color: #DBDFE2;
+}
+
+.visit img{
+  width: 300px;
+  height: 200px;
+  background-color: #66768A;
+}
