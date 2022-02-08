@@ -40,6 +40,7 @@ nav {
      padding: 10px 20px;
      height: 60px;
 }
+
 nav > span, nav > a, nav > ul{
   line-height: 60px;
  }

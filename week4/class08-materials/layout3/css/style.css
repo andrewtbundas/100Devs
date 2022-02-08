@@ -35,12 +35,22 @@ header {
   color: white;
 }
 
+nav{
+  height: 55px;
+}
+
 nav > *{
   float: left;
   width: 10%;
   margin: 1%;
   display: block;
   color: white;
+}
+
+nav img{
+  height: 100%;
+  width: auto;
+  margin: 0px;
 }
 
 nav a{
@@ -85,3 +95,8 @@ main section section{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+.sign-in-logo{
+  background-image: url(../idcta-icon-sprite.svg)
+}
