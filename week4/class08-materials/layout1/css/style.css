@@ -36,6 +36,7 @@ nav, main, aside {
 
 nav {
   padding: 20px;
+  height: 100%;
 }
 
 nav img{
@@ -89,6 +90,21 @@ aside ul li:last-child{
 
 .login{
   margin-bottom: 20px;
+}
+
+.latest{
+  clear: both;
+  padding-left: 10%;
+  margin-left: 20px;
+}
+
+.latest p, .latest img, .latest-left{
+  float: left;
+  width: 33%;
+}
+
+.latest-left{
+  width: 20%;
 }
 
 /******************************************
