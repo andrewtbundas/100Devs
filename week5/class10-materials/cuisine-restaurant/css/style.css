@@ -73,9 +73,9 @@ main{
   padding-top: 50px;
   background-color: #DEE9ED;
   background-image: url(../FLR_IPpWYBM4lL1.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: top right;
 }
 main h1{
   font-size: 5.5rem;
