@@ -71,7 +71,11 @@ main, .about{
 main{
   padding-left: 10%;
   padding-top: 50px;
-  background-image: url(../1000.jpeg);
+  background-color: #DEE9ED;
+  background-image: url(../FLR_IPpWYBM4lL1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 main h1{
   font-size: 5.5rem;
@@ -86,10 +90,101 @@ main h1{
 }
 
 .about{
-  background-image: url(../1100.jpeg);
+  background-image: url(../FLR_PsjXoAAXwE_.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: -600px;
   padding: 5% 10% 0% 40%;
+  background-color: #F6F6f6;
 }
 
+.specialty{
+  padding-top: 50px;
+  text-align: center;
+  background-image: linear-gradient(to right, #EEf2f3, #f2f6f7)
+}
+
+.food-images{
+  width: 80%;
+  display: inline-block;
+}
+.food-images li{
+  float: left;
+  width: 25%;
+  padding: 1%;
+}
+
+.food-images img{
+  width: 100%;
+  height: auto;
+}
+
+.contact{
+  background-image: linear-gradient(to right, #E9EDF0, #FFFFFF);
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.fa-phone{
+  font-size: 40px;
+  vertical-align: center;
+
+}
+
+.phone-wrapper{
+  border: 1px solid;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  text-align: center;
+  display: inline-block;
+  margin: 50px 0;
+}
+
+.phone-number{
+  display: block;
+  font-size: 2.5rem;
+}
+
+.day-time-container{
+  text-align: left;
+}
+
+.left{
+  padding-left: 5%;
+  float: left;  
+}
+
+.right{
+  padding-right: 5%;
+  float: right;
+}
+
+
+.contact img{
+  margin-top: 50px;
+  clear: both;
+  height: 600px;
+  width: 100%;
+  object-fit: cover; 
+  object-position: 0 5%;
+}
+
+.customer{
+  text-align: center;
+  padding: 5% 10%;
+}
+.customer > *{
+  display: block;
+}
+
+.customer img{
+  display: inline-block;
+  border: 0px solid black;
+  border-radius: 50%;
+  margin-top: 50px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -102,11 +197,40 @@ main h1{
   color: gold;
 }
 
-h3 {
-  margin: 0px;
+h2{
   font-size: 5rem;
 }
 
-.about p{
+h3 {
+  margin: 0px;
+  font-size: 4rem;
+}
+
+.about p, .customer p{
   line-height: 2rem;
 }
+
+.orange{
+  color: #FF8800;
+}
+
+.day{
+  font-size: 1rem;
+}
+.time{
+  font-size: 1.5rem;
+}
+
+.gold{
+  color: gold;
+}
+
+.name{
+  font-size: 2rem;
+}
+
+.title{
+  font-size: 1rem;
+  color: silver;
+}
+
