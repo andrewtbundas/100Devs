@@ -1,0 +1,112 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul{
+  padding:0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+  padding: 0px 10%;
+  position: absolute;
+  height: 50px;
+  width: 100%;
+}
+
+.nav-links, .nav-icons, .nav-logo{
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.nav-links-wrapper{
+  float: right;
+}
+
+.nav-icons{
+  float:right;
+}
+
+header li{
+  margin: 0 20px;
+
+}
+
+main, .about{
+  height: 800px;
+  width: 100%;
+}
+
+main{
+  padding-left: 10%;
+  padding-top: 50px;
+  background-image: url(../1000.jpeg);
+}
+main h1{
+  font-size: 5.5rem;
+  width: 50%;
+}
+
+.socials{
+  margin-top: 50px;
+}
+.socials li{
+  margin-right: 30px;
+}
+
+.about{
+  background-image: url(../1100.jpeg);
+  padding: 5% 10% 0% 40%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+/* Typography */
+
+.fab{
+  color: gold;
+}
+
+h3 {
+  margin: 0px;
+  font-size: 5rem;
+}
+
+.about p{
+  line-height: 2rem;
+}
