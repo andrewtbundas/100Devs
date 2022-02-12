@@ -45,6 +45,18 @@ a{
 /* LAYOUT
 /*******************************************/
 
+.left {
+  float:left;
+}
+
+.right{
+  float:right;
+}
+
+.col-1-2{
+  width: 50%;
+}
+
 header{
   padding: 20px;
   vertical-align: center;
@@ -144,6 +156,7 @@ main{
   width: 100%;
   height:fit-content;
   padding: 0px 10%;
+  margin: 200px 0px;
 }
 
 .col-1-3{
@@ -154,9 +167,16 @@ main{
 .services .col-1-3{
   padding: 0 5%;
   text-align: center;
-  margin-top: 50px;
 }
 
+
+.momentum{
+  padding: 0px 10%;
+}
+
+.momentum .col-1-2{
+  padding: 0 10%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
