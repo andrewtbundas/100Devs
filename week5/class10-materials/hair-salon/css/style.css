@@ -177,6 +177,82 @@ main{
 .momentum .col-1-2{
   padding: 0 10%;
 }
+
+.momentum .btn{
+  display: block;
+  margin-top: 50px;
+}
+
+.stylists{
+  padding: 0% 10%;
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.stylists div{
+  margin-right: 2%;
+  width: 32%
+}
+
+.stylists div:last-child{
+  margin-right: 0px;
+}
+
+.stylists img{
+  width: 100%;
+  height: auto;
+}
+
+.stylists a{
+  display:inline-block;
+  width: 66%;
+  position: relative;
+  bottom: 50px;
+}
+
+.stylists span{
+  display: block;
+  margin-top: 10px;
+  font-size: 0.75em;
+}
+
+.offer{
+  margin: 0 auto;
+  width: 80%;
+  height: fit-content;
+  background-image: url(../1000.jpeg);
+  background-position: top;
+  vertical-align: center;
+  padding: 100px 10%;
+}
+
+.offer p{
+  font-size: 2rem;
+  filter: drop-shadow(0px 3px 6px rgba(0,0,0,0.7))
+}
+
+.offer p span{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.lookbook{
+  width: 80%;
+  margin: 0 auto;
+  text-align:center;
+  height: 90vh;
+}
+
+.small-border{
+  border-bottom: 2px solid black;
+  width: 50px;
+  display: block;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  float: none;
+}
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
