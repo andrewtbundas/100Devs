@@ -1,26 +1,29 @@
 let total = 0
+const display = document.getElementById('display')
 
-document.querySelector('#pumpkin').addEventListener('mouseenter', makeZero)
-document.querySelector('#dominosPizza').addEventListener('click', jumanji)
-document.querySelector('#zebra').addEventListener('click', add9)
-document.querySelector('#cantThinkOfAnything').addEventListener('click', sub2)
+document.getElementById('zero').onclick = setZero
+document.getElementById('plus3').onclick = plus3
+document.getElementById('plus9').onclick = plus9
+document.getElementById('sub2').onclick = sub2
 
-function makeZero() {
+
+
+function setZero() {
   total = 0
-  document.querySelector('#placeToPutResult').innerText = total
+  display.innerHTML = total
 }
 
-function jumanji() {
-  total = total + 3
-  document.querySelector('#placeToPutResult').innerText = total
+function plus3() {
+  total += 3
+  display.innerHTML = total
 }
 
-function add9() {
-  total = total + 9
-  document.querySelector('#placeToPutResult').innerHTML = total
+function plus9() {
+  total += 9
+  display.innerHTML = total
 }
 
 function sub2() {
-  total = total - 2
-  document.querySelector('#placeToPutResult').innerHTML = total
+  total -= 2
+  display.innerHTML = total
 }

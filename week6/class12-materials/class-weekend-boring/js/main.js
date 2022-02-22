@@ -1,16 +1,12 @@
-document.querySelector('#check').addEventListener('click', check)
+document.getElementById('check').onclick = check
 
 function check() {
-
-  const day = document.querySelector('#day').value
-
-  //Conditionals go here
-  if(day === "Tuesday" || day === "Thursday" ){
-    alert('CLASS DAY!')
-  }else if(day === "Saturday" || day === "Sunday"){
-    alert('Weekend!')
-  }else{
-    alert('BORRRRRRINNNNNGGGGG!!!')
+  let val = document.getElementById('day').value.toLowerCase();
+  if (val === 'tuesday' || val === 'thursday') {
+    document.getElementById('placeToSee').innerHTML = "CLASS DAAAAY"
+  } else if (val === 'saturday' || val === 'sunday') {
+    document.getElementById('placeToSee').innerHTML = 'WEEKEND BABY'
+  } else {
+    document.getElementById('placeToSee').innerHTML = 'BOOOOOOOORING'
   }
-
 }
